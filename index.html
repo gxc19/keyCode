@@ -10,28 +10,31 @@
 <body>
     <div class="container">
 
-        <div id="header">
-             <h1>Keycode Generator</h1>
-        </div>
- 
-        <div id="subHead">
-            <h2 id="subTitle">event.key</h2>
-            <p id="keyType"></p>
+        <div>
+             <h1 id="header">Keycode Generator</h1>
         </div>
         
-        <div id="subHead2">
-            <h2 id="subTitle2">event.which</h2>
-            <p id="keyNum"></p>
-        </div>
-
-        <div id="subHead3">
-            <h2 id="subTitle3">event.code</h2>
-            <p id="keyName"></p>
-
-        </div>
+        <p id="keyNum1"></p>
         
+        <div class="inner-container">
 
+            <div class="box">
+             <h2 class="subTitle">event.key</h2>
+             <p id="keyType" class="middle"></p>
+            </div>
+        
+            <div class="box">
+             <h2 class="subTitle">event.which</h2>
+             <p id="keyNum" class="middle"></p>
+            </div>
 
+            <div class="box">
+             <h2 class="subTitle">event.code</h2>
+             <p id="keyName" class="middle"></p>
+            </div>
+        
+         </div>
+         
     </div>
 
 <script src="app.js"></script>
