@@ -10,10 +10,24 @@ body{
     
 }
 
+@media only screen and (max-width: 720px){
+    .container{
+        display: flex;
+        text-align: center;
+    }
+}
+
 #header{
     font-family: 'Press Start 2P', cursive;
     font-size: 70px;
     flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 720px){
+    #header{
+        font-size: 60px;
+        
+    }
 }
 
 #keyNum1{
@@ -28,13 +42,21 @@ body{
     flex-wrap: wrap;
 }
 
+@media only screen and (max-width: 720px){
+    .inner-container{
+        justify-content: center;
+        
+    }
+}
+
 .subTitle{
     border-radius: 20px 20px 0px 0px;
     display: flex;
     justify-content: center;
     font-family: 'Press Start 2P', cursive;
      background-color: rgb(73, 182, 176);
-     margin-top: -15px;
+     margin-top: -10px;
+     padding: 10px;
 }
 
 .middle{
@@ -42,6 +64,7 @@ body{
     justify-content: center;
     font-family: 'Press Start 2P', cursive;
     font-size: 20px;
+    margin-top: 5px;
 }
 
 .box{
@@ -55,5 +78,5 @@ body{
     margin: 70px;
     border-radius: 20px;
     box-shadow: 4px 4px 4px 3px rgba(0, 0, 0, 0.274);
-    margin-top: -30px;
+    margin-top: -10px;
 }
